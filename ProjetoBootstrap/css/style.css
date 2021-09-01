@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #FFDD21;
+}
+
+.navbar-brand:hover {
+    color: #FFDD21;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.search {
+    height: 40px;
+    width: 70%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid #FFDD21;
+    background-color: #000000;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #FFDD21;
+    color: rgb(0, 0, 0);
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background: url(../imagens/keyboard-6552414_1280.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.maincontato {
+    background: url(../imagens/4952568.svg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    color: white;
+}
+
+.maincontato h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFDD21;
+}
+
+.maincontato h6 {
+    font-size: 1.8rem;
+    font-weight: 350;
+    color: rgb(255, 255, 255);
+}
+
+.mainsobre {
+    background: url(../imagens/empresa.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    color: #FFDD21;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #FFDD21;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: #FFDD21;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #FFDD21;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn2:hover {
+    background-color: #FFDD21;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    -webkit-box-shadow: -2px 2px 14px -2px rgba(0, 0, 0, 0.8);
+    box-shadow: -2px 2px 14px -2px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.new img {
+    opacity: 0.3;
+}
+
+.new img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.news {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.news input {
+    height: 40px;
+    width: 60%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -45px;
+    border: 2px solid #FFDD21;
+    background-color: #000000;
+}
+
+.news .btn2 {
+    height: 40px;
+    width: 20%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #FFDD21;
+}
+
+.news .btn2:hover {
+    background-color: #FFDD21;
+}
+
+.news img {
+    padding: 4px;
+}
+
+.fab {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.fas {
+    font-size: 2.4rem;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+input {
+    color: white;
+}
+
+.compra {
+    margin: 30px;
+}
