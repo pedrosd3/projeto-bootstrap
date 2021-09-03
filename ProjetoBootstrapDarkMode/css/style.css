@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+label {
+    cursor: pointer;
+}
+.navbar li a {
+    color: rgb(0, 0, 0);
+}
+
+.navbar li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #0178FF;
+}
+
+.navbar-brand:hover {
+    color: #0178FF;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.search {
+    height: 40px;
+    width: 70%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -40px;
+    border: 2px solid #0178FF;
+    background-color: #ffffff;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #0178FF;
+    color: rgb(255, 255, 255);
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background: url(../imagens/keyboard-6552414_1280.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.maincontato {
+    background: url(../imagens/4952568.svg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    color: white;
+}
+
+.maincontato h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    /* color: #ffffff; */
+}
+
+.maincontato h6 {
+    font-size: 1.8rem;
+    font-weight: 350;
+    /* color: rgb(255, 255, 255); */
+}
+
+.mainsobre {
+    background: url(../imagens/empresa.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    color: #ffffff;
+    /* -webkit-text-stroke-width: 0.2px; */
+    /* -webkit-text-stroke-color: #000; */
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #0178FF;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: #0178FF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #0178FF;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn2:hover {
+    background-color: #0178FF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    -webkit-box-shadow: -2px 2px 14px -2px rgba(0, 0, 0, 0.8);
+    box-shadow: -2px 2px 14px -2px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.new img {
+    opacity: 0.3;
+}
+
+.new img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.news {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.news input {
+    height: 40px;
+    width: 60%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -45px;
+    border: 2px solid #0178FF;
+    background-color: #ffffff;
+}
+
+.news .btn2 {
+    height: 40px;
+    width: 20%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #0178FF;
+}
+
+.news .btn2:hover {
+    background-color: #0178FF;
+}
+
+.news img {
+    padding: 4px;
+}
+
+.fab {
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.fas {
+    font-size: 2.4rem;
+}
+
+.far {
+    font-size: 1.6rem;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+input {
+    color: rgb(0, 0, 0);
+}
+
+.compra {
+    margin: 30px;
+}
+
+/* Modo Noturno */
+body.dark {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+body.dark li a {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+body.dark li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+body.dark .search {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+body.dark .news {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+body.dark .news input {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
